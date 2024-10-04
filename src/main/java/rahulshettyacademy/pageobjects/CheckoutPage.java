@@ -41,11 +41,20 @@ public class CheckoutPage extends AbstractComponent {
 		Thread.sleep(2000);
 		selectCountry.click();
 		Thread.sleep(2000);
+		selectCountry.click();
 		
 	}
 	
 	
 	public ConfirmationPage submitOrder() throws InterruptedException
+	{
+	//Thread.sleep(3000);
+		submit.click();
+		
+		return new ConfirmationPage(driver);
+	}
+	
+	public ConfirmationPage submitOrder1() throws InterruptedException
 	{
 	//Thread.sleep(3000);
 		submit.click();

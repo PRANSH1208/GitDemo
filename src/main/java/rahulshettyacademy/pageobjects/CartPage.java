@@ -31,9 +31,9 @@ public class CartPage extends AbstractComponent {
 				.anyMatch(cartProduct -> cartProduct.getText().equalsIgnoreCase(productName));
 		return match; 
 		
-		System.out.println("Test1");
+		//System.out.println("Test1");
 		System.out.println("Test2");
-		System.out.println("Test3");
+		//System.out.println("Test3");
 		
 		System.out.println("Test4");
 		System.out.println("Test5");
@@ -46,6 +46,11 @@ public class CartPage extends AbstractComponent {
 		Thread.sleep(2000);
 		checkoutEle.click();
 		return new CheckoutPage(driver);
+		
+		System.out.println("Test7");
+		System.out.println("Test8");
+
+
 
 	}
 }
