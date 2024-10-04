@@ -1,0 +1,25 @@
+# Created at 2024-05-05T19:01:50.982
+java.lang.NullPointerException
+	at org.testng.xml.XmlSuite.getIncludedGroups(XmlSuite.java:1039)
+	at org.testng.xml.XmlTest.getIncludedGroups(XmlTest.java:138)
+	at org.testng.TestRunner.initRunInfo(TestRunner.java:364)
+	at org.testng.TestRunner.init(TestRunner.java:247)
+	at org.testng.TestRunner.init(TestRunner.java:222)
+	at org.testng.TestRunner.<init>(TestRunner.java:163)
+	at org.testng.SuiteRunner$DefaultTestRunnerFactory.newTestRunner(SuiteRunner.java:566)
+	at org.testng.SuiteRunner.init(SuiteRunner.java:170)
+	at org.testng.SuiteRunner.<init>(SuiteRunner.java:117)
+	at org.testng.TestNG.createSuiteRunner(TestNG.java:1359)
+	at org.testng.TestNG.createSuiteRunners(TestNG.java:1346)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+	at org.testng.TestNG.runSuites(TestNG.java:1124)
+	at org.testng.TestNG.run(TestNG.java:1096)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+
+
