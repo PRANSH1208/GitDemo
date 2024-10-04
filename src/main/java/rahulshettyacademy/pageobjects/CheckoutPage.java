@@ -40,6 +40,7 @@ public class CheckoutPage extends AbstractComponent {
 		waitForElementToAppear(By.cssSelector(".ta-results"));
 		Thread.sleep(2000);
 		selectCountry.click();
+		Thread.sleep(2000);
 		
 	}
 	
