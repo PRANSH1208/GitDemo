@@ -24,12 +24,14 @@ public class LandingPage extends AbstractComponent {
 	// another way to write - PageFactory design pattern
 	@FindBy(id = "userEmail")
 	WebElement userEmail;
-
+	//WebElement userEmail;
+	WebElement userEmail1;
 	@FindBy(id = "userPassword")
 	WebElement Password;
 
 	@FindBy(id = "login")
 	WebElement submit;
+	WebElement submit2;
 	
 	@FindBy(css = "[class*='flyInOut']")
 	WebElement errorMessage;
