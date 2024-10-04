@@ -29,8 +29,12 @@ public class CartPage extends AbstractComponent {
 	public Boolean VerifyProductDisplay(String productName) {
 		Boolean match = cartProducts.stream()
 				.anyMatch(cartProduct -> cartProduct.getText().equalsIgnoreCase(productName));
-		return match;
-
+		return match; 
+		
+		System.out.println("Test1");
+		System.out.println("Test2");
+		System.out.println("Test3");
+		
 	}
 
 	public CheckoutPage goToCheckout() throws InterruptedException {
